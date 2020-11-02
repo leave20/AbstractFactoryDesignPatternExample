@@ -1,4 +1,8 @@
 package com.kem.abstractfactorydesignpatternexample.entity;
 
-public class Black {
+public class Black implements Color{
+    @Override
+    public String getColor() {
+        return "Black";
+    }
 }
